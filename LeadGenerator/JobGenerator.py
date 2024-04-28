@@ -65,7 +65,7 @@ class JobFeedProcessor:
         return email_content
 
 # Function to send email
-def send_email(email_content):
+def send_email(email_content, job):
     # Email configuration
     sender_email = "enmanuelm385@gmail.com"
     receiver_email = "emadera@emanalyticsllc.com"
@@ -75,7 +75,7 @@ def send_email(email_content):
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = receiver_email
-    message["Subject"] = "Job Entries for Today"
+    message["Subject"] = f"Today Job Entries for {job}"
     
     # Add email content
     message.attach(MIMEText(email_content, "plain"))
