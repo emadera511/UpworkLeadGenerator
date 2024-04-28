@@ -17,7 +17,7 @@ class JobFeedProcessor:
     def process_entries(self):
         # Define the desired skills
         desired_skills = ['Databricks Platform', 'Big Data', 'Data Science' 'Terraform', 'AWS Glue,', 'AWS','Amazon Web Services',
-                           'Spark', 'PySpark', 'Python', 'SQL Server', 'Apache Spark', 'ETL Pipeline', 'AWS S3']
+                           'Spark', 'PySpark', 'Python', 'SQL Server', 'Apache Spark', 'ETL Pipeline', 'AWS S3', 'Data Analysis', 'ETL']
 
         # Get today's date in the format "Month Day, Year"
         today_date = datetime.now().strftime('%B %d, %Y')
