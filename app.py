@@ -18,5 +18,6 @@ for url in rss_feed_url:
     email_content = job_processor.process_entries()
 
     send_email(email_content)
+    print("1")
 
    
