@@ -86,4 +86,3 @@ def send_email(email_content):
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, message.as_string())
 # RSS Feed URL
-
